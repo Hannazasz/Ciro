@@ -1,0 +1,210 @@
+# PROJETO: NEX FPS COUNTER
+Migração Total para Flutter (Dart) com Reformulação Completa de UI, UX, Sistemas e Performance
+
+## 1. Visão Geral do Projeto
+
+Este projeto tem como objetivo realizar a migração completa de um aplicativo Android atualmente desenvolvido em Kotlin para Flutter (Dart), removendo totalmente qualquer dependência de Kotlin ou Java e adotando uma arquitetura moderna, escalável, performática e de fácil manutenção.
+
+O aplicativo será relançado com uma nova identidade visual, uma interface moderna focada no público gamer, novos sistemas internos, maior nível de personalização, animações fluidas e monitoramento avançado de hardware em tempo real, tornando-se uma referência entre aplicativos de contagem de FPS para jogos mobile.
+
+## 2. Identidade do Aplicativo
+
+Nome do aplicativo: Nex FPS Counter
+
+Categoria: Ferramentas, Games, Performance
+
+Público-alvo:
+- Jogadores mobile competitivos
+- Usuários avançados
+- Desenvolvedores e testers
+- Criadores de conteúdo focados em performance mobile
+
+## 3. UI e UX – Design System Avançado
+
+Tema visual:
+- Tema padrão totalmente escuro (ALL BLACK)
+- Fundo preto absoluto (#000000)
+- Ícones coloridos com estilo gamer/neon
+- Interface limpa, moderna e minimalista
+
+Tipografia:
+- Fontes modernas e legíveis
+- Exemplos: Inter, Orbitron, JetBrains Mono
+- Suporte a escalonamento dinâmico de texto
+
+Design System:
+- Componentes reutilizáveis (botões, cards, modais, sliders, toggles)
+- Tokens de design (cores, espaçamentos, bordas, sombras)
+- Layout totalmente responsivo para diferentes tamanhos de tela
+- Acessibilidade garantida (contraste, tamanhos mínimos, legibilidade)
+
+## 4. Animações e Microinterações
+
+- Animações suaves rodando a 60, 90 e 120 FPS
+- Transições fluidas entre telas
+- Feedback visual para interações do usuário
+- Uso de animações implícitas e explícitas no Flutter
+- Suporte a Lottie e Rive para animações avançadas
+
+GIFs a serem integrados em áreas estratégicas:
+- https://lll.io/fOmZ4IV.gif
+- https://lillo/fQmZUkx.gif
+- https://o/fQm257).gif
+- https://lo/fQmZ57j.gif
+
+Finalidade dos GIFs:
+- Tutoriais animados
+- Demonstração de funcionalidades
+- Destaque visual de recursos avançados
+
+## 5. Stack Tecnológica Obrigatória
+
+Core:
+- Flutter (Dart) como tecnologia única
+- Remoção completa de Kotlin e Java
+- Código totalmente tipado, modular e documentado
+
+Arquitetura:
+- Clean Architecture combinada com MVVM
+- Separação clara em camadas:
+  - Presentation
+  - Domain
+  - Data
+- Injeção de dependência
+- Gerenciamento de estado utilizando Riverpod ou Bloc
+
+Documentação de referência:
+- Flutter: https://docs.flutter.dev/
+- Dart: https://dart.dev/docs
+
+## 6. Sistema Avançado de Contador de FPS
+
+Funcionalidades principais:
+- Contagem de FPS em tempo real
+- Alta precisão e baixa latência
+- Estabilidade durante jogos pesados
+- Otimização específica para jogos mobile
+
+Customização total do contador:
+- Posição livre na tela
+- Tamanho e escala
+- Fonte personalizada
+- Cores configuráveis
+- Opacidade ajustável
+- Animações do contador
+- Modos de exibição:
+  - Minimal
+  - Gamer
+  - Pro
+
+## 7. Monitoramento Avançado de Hardware
+
+Exibição em tempo real das seguintes informações:
+- FPS
+- Uso de CPU em porcentagem
+- Uso de GPU em porcentagem
+- Uso de memória RAM
+- Temperatura do dispositivo (quando disponível)
+- Processos ativos
+- Threads relacionadas ao jogo
+
+Formas de visualização:
+- Cards informativos
+- Overlays flutuantes
+- Gráficos animados em tempo real
+
+## 8. Integração com Shizuku API
+
+- Integração atualizada com a versão mais recente da Shizuku API
+- Comunicação segura e estável
+- Melhor compatibilidade com diferentes versões do Android
+- Sistema de fallback para dispositivos não compatíveis
+
+Repositório oficial:
+https://github.com/RikkaApps/Shizuku-API
+
+## 9. Sistema de Sons
+
+- Sons personalizados para eventos do aplicativo:
+  - Ativação e desativação do contador
+  - Navegação entre telas
+  - Alertas do sistema
+- Controle de volume independente
+- Opção para desativar completamente os sons
+- Identidade sonora moderna e discreta
+
+## 10. Aba “Sobre o Desenvolvedor”
+
+Conteúdo dinâmico:
+- Foto do desenvolvedor exibida acima do texto
+- A imagem deve mudar automaticamente a cada 30 segundos
+- Transições suaves entre as imagens
+
+Texto exibido:
+Olá, sou Augusto, conhecido como Hann.
+Criei este aplicativo para ajudar usuários a obter contagem de FPS em jogos mobile.
+Tenho 17 anos, sou do Rio de Janeiro, Brasil.
+Trabalho com programação há 4 anos, criando bots para Discord, jogos, aplicativos e outros projetos.
+Use o aplicativo e descubra novas possibilidades.
+
+## 11. Linguagens e Tecnologias do Desenvolvedor
+
+Criar uma seção interativa contendo as linguagens dominadas pelo desenvolvedor.
+
+Cada linguagem deve conter:
+- Ícone representativo
+- Nome
+- Descrição explicando para que serve
+- Exemplos de uso prático
+
+Lista de linguagens:
+- JavaScript
+- C#
+- Kotlin
+- Flutter
+- Java (Discord Bots)
+- Outras linguagens relevantes
+
+## 12. Novos Sistemas e Funcionalidades Avançadas
+
+- Presets de performance
+- Perfis de usuário
+- Temas totalmente customizáveis
+- Sistema de backup e restauração de configurações
+- Sistema de conquistas e metas
+- Logs avançados de desempenho
+- Modo desenvolvedor
+- Detecção automática de jogos instalados
+- Otimizações inteligentes baseadas no comportamento do usuário
+
+## 13. Performance e Otimização
+
+- Renderização otimizada
+- Uso mínimo de CPU e RAM
+- Monitoramento interno do desempenho do próprio app
+- Controle eficiente de memória e garbage collection
+- Testes de estresse em dispositivos reais
+
+## 14. Testes e Qualidade
+
+- Testes unitários
+- Testes de integração
+- Testes de interface
+- Testes de performance
+- Compatibilidade com múltiplas versões do Android
+
+## 15. Resultado Final Esperado
+
+- Aplicativo totalmente migrado para Flutter (Dart)
+- Interface moderna, limpa e focada em performance
+- Sistemas avançados e altamente personalizáveis
+- Alto desempenho e estabilidade
+- Código limpo, escalável e pronto para futuras expansões
+
+## 16. Liberdade Criativa
+
+A equipe ou IA responsável pelo desenvolvimento tem liberdade para:
+- Propor novas funcionalidades
+- Criar novos sistemas internos
+- Melhorar UI e UX além do escopo descrito
+- Inovar mantendo performance, segurança e estabilidade
